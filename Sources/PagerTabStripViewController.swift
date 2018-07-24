@@ -104,7 +104,6 @@ open class PagerTabStripViewController: UIViewController, UIScrollViewDelegate {
         containerView.isPagingEnabled = true
         reloadViewControllers()
 
-
         // Quick fix to prevent crash
         if currentIndex < viewControllers.count {
 
